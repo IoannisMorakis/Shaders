@@ -14,7 +14,6 @@
 		<script type="module">
 
 			import * as THREE from './three.js/build/three.module.js';
-			import * as UTIL from './util.js';
 			import { EffectComposer } from './three.js/examples/jsm/postprocessing/EffectComposer.js';
 			import { RenderPass } from './three.js/examples/jsm/postprocessing/RenderPass.js';
 			import { FilmPass } from './three.js/examples/jsm/postprocessing/FilmPass.js';
@@ -29,18 +28,7 @@
 			init();
 			animate();
 
-			/*
-			// Leer texto de lava_vertex.vs.glsl y combertirlo en arreglo, usando la funcion loadTextResource de util.js
-			UTIL.loadTextResource('lava_vertex.vs.glsl', function (vsErr, vsText) {
-				if (vsErr) {
-					alert('Fatal error getting vertex shader (see console)');
-					console.error(vsErr);
-				} else{
-					console.log(vsText);
-					var arrayT= vsText.split("\n") ;
-					console.log(arrayT);
-				}
-			});*/
+			
 			
 			
 
